@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78b2a13e-5ddc-482f-b990-749236d22fa3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BonusService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BonusServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BonusService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/javaqa/javamvn/services/BonusService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BonusServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/javaqa/javamvn/services/BonusServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,50 +29,53 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="29sYKG3mKxr6ICwJRc4SKEkqUlv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;E:/Alena/ProgramFiles/IntelliJ IDEA Community Edition 2022.1.1/IdeaProjects/BonusService/src/test/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Alena/ProgramFiles/IntelliJ IDEA Community Edition 2022.1.1/IdeaProjects/BonusServiceCSV&quot;
   }
-}]]></component>
+}</component>
   <component name="RunAnythingCache">
     <option name="myCommands">
+      <command value="mvn clean" />
       <command value="mvn clean test" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BonusServiceTest.shouldCalculateForUnRegisteredAndOverLimit">
+  <component name="RunManager" selected="JUnit.BonusServiceTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="BonusService" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BonusServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BonusService" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BonusServiceTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.javaqa.javamvn.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.javaqa.javamvn.services" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.javaqa.javamvn.services.BonusServiceTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BonusServiceTest.shouldCalculateForRegisteredAndOverLimit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BonusService" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BonusServiceTest" />
-      <option name="METHOD_NAME" value="shouldCalculateForRegisteredAndOverLimit" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BonusServiceTest.shouldCalculateForRegisteredAndUnderLimit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BonusService" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BonusServiceTest" />
-      <option name="METHOD_NAME" value="shouldCalculateForRegisteredAndUnderLimit" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -90,11 +90,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BonusServiceTest.shouldCalculateForUnRegisteredAndUnderLimit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SqrtServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BonusService" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BonusServiceTest" />
-      <option name="METHOD_NAME" value="shouldCalculateForUnRegisteredAndUnderLimit" />
+      <option name="MAIN_CLASS_NAME" value="SqrtServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SqrtServiceTest.shouldCalcExact" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BonusService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.javaqa.javamvn.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.javaqa.javamvn.services" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.javaqa.javamvn.services.SqrtServiceTest" />
+      <option name="METHOD_NAME" value="shouldCalcExact" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BonusServiceTest.shouldCalculateForUnRegisteredAndOverLimit" />
-        <item itemvalue="JUnit.BonusServiceTest.shouldCalculateForUnRegisteredAndUnderLimit" />
         <item itemvalue="JUnit.BonusServiceTest" />
-        <item itemvalue="JUnit.BonusServiceTest.shouldCalculateForRegisteredAndOverLimit" />
-        <item itemvalue="JUnit.BonusServiceTest.shouldCalculateForRegisteredAndUnderLimit" />
+        <item itemvalue="JUnit.SqrtServiceTest" />
+        <item itemvalue="JUnit.SqrtServiceTest.shouldCalcExact" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.BonusServiceTest.shouldCalculateForUnRegisteredAndOverLimit" />
       </list>
     </recent_temporary>
   </component>
